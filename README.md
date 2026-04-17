@@ -1,11 +1,10 @@
-# Books Scraper
+# Quotes Scraper
 
-This project scrapes book data from http://books.toscrape.com using Python.
+This project scrapes quotes, authors, and tags from https://quotes.toscrape.com using Python.
 
 ## Features
-- Extracts book title, price, availability, and rating
-- Handles pagination across all pages
-- Cleans price data and converts it to numeric format
+- Extracts quotes, authors, and tags
+- Handles pagination automatically
 - Stores data in JSON format
 
 ## Tech Stack
@@ -20,4 +19,4 @@ pip install -r requirements.txt
 python scraper.py
 
 ## Output
-The scraped data is saved in books.json
+The scraped data is saved in quotes.json
